@@ -1,0 +1,241 @@
+/* Preloder */
+
+#preloder {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 999999;
+	background: #fff;
+}
+
+.loader {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -13px;
+	margin-left: -13px;
+	border-radius: 60px;
+	animation: loader 0.8s linear infinite;
+	-webkit-animation: loader 0.8s linear infinite;
+}
+
+@keyframes loader {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+		border: 4px solid #ac691c;
+		border-left-color: transparent;
+	}
+	50% {
+		-webkit-transform: rotate(180deg);
+		transform: rotate(180deg);
+		border: 4px solid #673ab7;
+		border-left-color: transparent;
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+		border: 4px solid #ac691c;
+		border-left-color: transparent;
+	}
+}
+
+@-webkit-keyframes loader {
+	0% {
+		-webkit-transform: rotate(0deg);
+		border: 4px solid #ac691c;
+		border-left-color: transparent;
+	}
+	50% {
+		-webkit-transform: rotate(180deg);
+		border: 4px solid #673ab7;
+		border-left-color: transparent;
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		border: 4px solid #ac691c;
+		border-left-color: transparent;
+	}
+}
+#bit
+{
+	display: none;
+}
+input[type=text]
+{
+	border: none;
+	border-bottom: 1px solid gray;
+	background: transparent;
+}
+input[type=text]:focus
+{
+	border: none;
+	border-bottom: 1px solid gray;
+	background: transparent;
+}
+input[type=password]
+{
+	border: none;
+	border-bottom: 1px solid gray;
+	background: transparent;
+}
+input[type=password]:focus
+{
+	border: none;
+	border-bottom: 1px solid gray;
+	background: transparent;
+}
+input[type=tel]
+{
+	border: none;
+	border-bottom: 1px solid gray;
+	background: transparent;
+}
+input[type=email]
+{
+	border: none;
+	border-bottom: 1px solid gray;
+	background: transparent;
+}
+input[type=email]:focus
+{
+	border: none;
+	border-bottom: 1px solid gray;
+	background: transparent;
+}
+#passNote
+{
+	display: none;
+}
+#passWarn
+{
+	display: none;
+}
+#passMatch
+{
+	display: none;
+}
+#userNote
+{
+	display: none;
+}
+#userLess
+{
+	display: none;
+}
+#telNote
+{
+	display: none;
+}
+#telWarn
+{
+	display: none;
+}
+#emailNote
+{
+	display: none;
+}
+#emailWarn
+{
+	display: none;
+}
+#firstNote
+{
+	display: none;
+}
+#firstLess
+{
+	display: none;
+}
+#firstWarn
+{
+	display: none;
+}
+#lastNote
+{
+	display: none;
+}
+#lastLess
+{
+	display: none;
+}
+#lastWarn
+{
+	display: none;
+}
+#firstname:focus
+{
+	border: none;
+	border-bottom: 1px solid gold;
+	background: transparent;
+}
+#lastname:focus
+{
+	border: none;
+	border-bottom: 1px solid gold;
+	background: transparent;
+}
+#gender:focus
+{
+	border: none;
+	border-bottom: 1px solid gold;
+	background: transparent;
+}
+#email:focus
+{
+	border: none;
+	border-bottom: 1px solid gold;
+	background: transparent;
+}
+#phone:focus
+{
+	border: none;
+	border-bottom: 1px solid gold;
+	background: transparent;
+}
+#username:focus
+{
+	border: none;
+	border-bottom: 1px solid gold;
+	background: transparent;
+}
+#password:focus
+{
+	border: none;
+	border-bottom: 1px solid gold;
+	background: transparent;
+}
+#cpassword:focus
+{
+	border: none;
+	border-bottom: 1px solid gold;
+	background: transparent;
+}
+#game-slot{
+	background-color: #fff29b;
+	width: 100%;
+	padding: 30px;
+}
+#current_question{
+	font-weight: bolder;
+	font-size: larger;
+}
+#total_questions{
+	font-weight: bolder;
+	font-size: larger;
+}
+#navigate-links:hover{
+	color: white;
+	background-color: gold;
+}
+#navigate-bar:hover{
+	background-color: grey;
+	color: white;
+}
+#navigate-main:hover{
+	color: gold;
+}
